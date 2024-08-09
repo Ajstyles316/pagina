@@ -1,0 +1,84 @@
+@import './variables.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section[id]{
+  scroll-margin-top: 40px;
+}
+body {
+  font-family: var(--font-family);
+  background: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li button {
+  background: none;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.section {
+  padding: 60px 20px; 
+  min-height: 100vh;
+  /* Simplificado para depurar */
+  opacity: 1; 
+  position: relative;
+}
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.auth-page h2 {
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.auth-page > * {
+  width: 100%;
+  max-width: 400px; 
+}
+body {
+  scroll-behavior: smooth; 
+  margin-top: 60px; 
+}

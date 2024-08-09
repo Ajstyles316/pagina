@@ -1,0 +1,50 @@
+.tools-container {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .tools-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tool-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tool-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tool-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .tool-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .tool-card p {
+    font-size: 1em;
+    color: #666;
+  }
+
+  .tools-container h2{
+    font-size: 36px;
+    color: #333;
+  }
+  

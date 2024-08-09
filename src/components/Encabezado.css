@@ -1,0 +1,15 @@
+@import '../App.css';
+
+footer {
+  background: var(--secondary-color);
+  color: #fff;
+  height: var(--footer-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+}
